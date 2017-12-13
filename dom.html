@@ -1,0 +1,16 @@
+<link rel="import"
+      href="bower_components/polymer/polymer.html">
+
+<dom-module id="dom-element">
+
+  <template>
+    <p>I'm a DOM element. This is my local DOM!</p>
+  </template>
+<!--这里用一个template标签来封装了dom-->
+  <script>
+    Polymer({
+      is: "dom-element"
+    });
+  </script>
+
+</dom-module><!--最外层也用了dom-module来包裹-->
